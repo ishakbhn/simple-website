@@ -1,0 +1,98 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+/*========= 
+Typography
+==========*/
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #143774;
+  margin: 0;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #1792d2;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/*=========
+Layout
+===========*/
+.container {
+  padding: 0 2em;
+}
+
+.container-nav {
+  /* border: 1px dotted red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background: #f8f8f8;
+  padding: 2em 0;
+}
+
+@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+
+  .container {
+    text-align: center;
+  }
+}
+
+/*========= 
+Navigation
+===========*/
+.nav-list {
+  /* border: 1px solid blue; */
+  font-family: "Ubuntu", sans-serif;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list-item {
+  margin-left: 2em;
+}
+
+nav a {
+  color: #707070;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #2d93fa;
+}
+
+.current-page {
+  border-bottom: 2px solid #707070;
+}
+.current-page:hover {
+  color: #707070;
+}
+
+@media (max-width: 675px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-list-item {
+    margin: 1em 0;
+  }
+}
