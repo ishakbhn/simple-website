@@ -14,6 +14,7 @@ Start with structuring the Markup of your HTML, CSS will be the later part that'
 ![image of simple website-01](/images/Website-Design-01.png)
 ![image of simple website-02](/images/Website-Design-02.png)
 ![image of simple website-03](/images/Website-Design-03.png)
+![image of simple website recent posts](/images/Website-Design-03.png)
 
 ## Scheme Details
 

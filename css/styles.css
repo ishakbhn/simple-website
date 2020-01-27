@@ -17,8 +17,8 @@ Typography
 /* .article-title can be h2 instead of class name nothing wrong */
 /* .widget-recent-post-title can be h23 instead of class name nothing wrong */
 h1,
-.article-title,
-.widget-recent-post-title {
+h2,
+h3 {
   font-family: "Lora", serif;
   font-weight: 400;
   color: #143774;
@@ -28,6 +28,10 @@ h1,
 h1 {
   font-size: 2rem;
   margin: 0;
+}
+
+h3 {
+  color:#1792D2;
 }
 
 strong,
@@ -79,10 +83,11 @@ strong,
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+  color: #143774;
 }
 
 .widget-title {
-  color: #143774;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .article-info {
@@ -261,4 +266,14 @@ Sidebar
 
 .widget-image {
   margin-bottom: 0.5em;
+}
+
+/*========= 
+About Me
+===========*/
+.image-full {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  margin-bottom: 2em;
 }
